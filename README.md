@@ -11,8 +11,6 @@ Others (See package.json at the root folder)
 Clone the Repo
 On the command prompt run the following commands
 
-$ git clone https://github.com/Doha26/InstagramClone.git
-
 $ cd InstagramClone
 
 $ npm install
