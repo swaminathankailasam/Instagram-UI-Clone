@@ -1,13 +1,24 @@
 Instagram UI Clone
-React Native Instagram Clone
 
-Installation
-Use the package manager [YARN] to install [React Native Instagram Clone].
+A clone of the Instagram app made with React, React-native and Typescript.
 
- 
- cd InstaClone
- yarn install
- react-native run-ios
+Dependencies:
+React Native (With Typescript)
+Native Base
+React Navigation
+Others (See package.json at the root folder)
 
- 
- ![Screenshot (1155)](https://github.com/user-attachments/assets/ed0914af-6bc9-4c58-8a65-26d64b11dfc4)
+Clone the Repo
+On the command prompt run the following commands
+
+$ git clone https://github.com/Doha26/InstagramClone.git
+
+$ cd InstagramClone
+
+$ npm install
+
+$ grep -rl "s.dependency 'React/Core'" node_modules/ | xargs sed -i '' 's=React/Core=React-Core=g' // To replace React/Core with React-core for all dependencies that use it 
+
+$ cd ios && pod install && cd..
+
+$ react-native run-ios
