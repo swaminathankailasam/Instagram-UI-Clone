@@ -8,4 +8,6 @@ Use the package manager [YARN] to install [React Native Instagram Clone].
  cd InstaClone
  yarn install
  react-native run-ios
+
+ 
  ![Screenshot (1155)](https://github.com/user-attachments/assets/ed0914af-6bc9-4c58-8a65-26d64b11dfc4)
