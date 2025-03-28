@@ -4,7 +4,7 @@ React Native Instagram Clone
 Installation
 Use the package manager [YARN] to install [React Native Instagram Clone].
 
- git clone https://github.com/saitoxu/InstaClone.git
+ 
  cd InstaClone
  yarn install
  react-native run-ios
